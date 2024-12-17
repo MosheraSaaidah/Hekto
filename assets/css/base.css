@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+/*  يعتبر مكتبة خاصة فينا لكتابة الخصائص المتكررة معنا ةالمطبقة دائماً معنا خلال المشروع لجعل الكود أرتب وأسهل للتعامل  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*عشان ما تزيد,  padding margin  على الطول والعرض */
+}
+:root {
+  --main-color: #fb2e86;
+  --main-font: "Lato", sans-serif;
+  --second-font: "Josefin Sans", sans-serif;
+}
+body {
+  font-family: var(--main-font);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--second-font);
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* لتوسيط العناصر في منتصف الصفحة  */
+.container {
+  width: calc(100% - 300px);
+  margin: auto;
+}
+/* لجعل العناصر  جنب بعض  */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+/* 
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...}  */
